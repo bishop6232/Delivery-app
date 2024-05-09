@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.header-css{
+    font-size: x-large;
+}
+.login-container {
+    margin-top: 150px;
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content:center;
+    
+}
+.fieldset{
+    height: 50px;
+    align-items: center;
+    font-size: xx-large;
+   
+}
+.title{
+    font-size: x-large;
+    margin-right: 70px;
+    color: rgb(45, 109, 226);
+    margin-left: 0;
+}
+.fieldset p{
+    font-size: large;
+}
+.fieldset input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+.fieldset button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+   display: grid;
+   grid-template-rows: auto;
+   margin-top: 20px;
+   background-color: cornflowerblue;
+   font-size: large;
+   font-weight:bold;
+   color: white;
+   cursor: pointer;
+}
+.user-container{
+   margin-left: 500px;
+   font-size: xx-large;
+    
+}
+.user-h2{
+    margin-bottom: 50px;
+}
+    
+.user-form input{ 
+    width: 400px;
+   height: 40px;
+    display:grid;
+    place-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.user-form button{ 
+    width: 400px;
+   height: 40px;
+   font-size: x-large;
+   background-color: cornflowerblue;
+   cursor: pointer;
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+}
+
+.footer-css{
+   text-align: center;
+   justify-content: center;
+}
+small{
+    margin-left: 800px;
+    color: white;
+
+ }
+ #nav button{
+    list-style-type: none;
+    width:140px;
+    height: 50px;
+    display:flex;
+   flex-direction: row;
+   margin-top: 20px;
+   background-color:rgb(45, 109, 226);
+   color: white;
+   font-weight: bold;
+   border-radius: 15px;
+   margin-left: 20px;
+
+  
+
+ }
+ .navtext-button{
+    font-size: large;
+    overflow: hidden;
+    align-items: center;
+ }
+.link{
+    text-decoration: none;
+    outline: none;
+}
+
+.link:visited{
+   color: inherit;
+}
+#nav button:hover{
+    background-color: midnightblue;
+ }
+ .header-css h1,h3{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+ }
+img{
+   margin-top: 100px;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 40px;
+}
+.allTransport{
+    margin-left: 450px;
+}
+ .aboutUs-css{
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(25, 25, 112, 0.5);
+    
+ }
+
+ .offers{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+ .offerhead{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px; 
+    padding-right: 20px;
+    text-align: center;
+    justify-content: center;
+ }
